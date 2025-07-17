@@ -1,0 +1,55 @@
+export const menuitems=[
+    {
+        title:"Home",
+        submenu:[
+            {
+                title:'Home01'
+            },
+            {
+                title:'Home02'
+            }
+        ]
+    },
+    {
+        title:"About",
+    },
+    {
+        title:"Service",
+        submenu:[
+            {
+                title:'Service'
+            },
+            {
+                title:'Service Single'
+            }
+        ]
+    },
+     {
+        title:"Pages",
+        submenu:[
+            {
+                title:'About'
+            },
+            {
+                title:'Shop'
+            },
+            {
+                title:'Shop Details'
+            }
+        ]
+    },
+     {
+        title:"Blog",
+        submenu:[
+            {
+                title:'Blog'
+            },
+            {
+                title:'Blog Details'
+            }
+        ]
+    },
+    {
+        title:"Contact"
+    }
+]

@@ -1,0 +1,112 @@
+.input-button-container {
+    position: relative;
+  /* display: flex; */
+  width: 400px; /* 400px input + 200px button */
+  
+}
+
+.input-box {
+   width: 100%;
+   /* heigh0px; */
+  padding: 15px;
+  padding-right: 200px;
+  /* box-sizing: border-box; */
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #001064;
+}
+
+.right-button {
+    position: absolute;
+  right: 0;
+  top: 0;
+  bottom: -10px;
+  height: 90%;
+  width: 150px;
+  border: none;
+  background-color: #ff800f;
+    border-radius: 30px;
+  border: 2px solid #ff800f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#vertical-line {
+  width: 2px;
+  height: 70px; /* adjust height as needed */
+  background-color: white; /* or any color */
+  margin-top: 10px;
+}
+
+
+
+#navleftside{
+    height: 100%;
+    width: 100%;
+}
+
+#navleftimg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#iconid{
+    height: 15px;
+    width:  15px;
+    &:hover{
+        color: white;
+    }
+}
+
+#icondiv{
+ border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+   text-align: center;
+   &:hover{
+      cursor: pointer;
+    background-color: #ff800f;
+    color: white;
+    outline: #ff800f;
+   }
+
+}
+
+#hoverlink {
+    color:rgba(255, 255, 255, 0.6);
+    
+
+&:hover{
+
+    cursor: pointer;
+    color: #ff800f;
+
+}
+}
+
+#aboutuslink{
+    color:rgba(255, 255, 255, 0.6);
+
+&:hover{
+
+    cursor: pointer;
+    color: #ff800f;
+
+}
+}
+
+#termsdiv{
+     color:rgba(255, 255, 255, 0.7);
+
+&:hover{
+
+    cursor: pointer;
+    color: #ff800f;
+
+}
+}

@@ -1,0 +1,12 @@
+
+#image-container,
+#gridcardimage{
+ display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: space-around;
+   
+}
+
+#gridcardimage1{
+     
+}
